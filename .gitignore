@@ -104,17 +104,24 @@ venv.bak/
 .mypy_cache/
 
 # irrelevant experiments
-NeurIPS2021/AdaBoost_num_trees.py
-NeurIPS2021/mu.py
-NeurIPS2021/muBernstein.py
-NeurIPS2021/helpers/run_mu.sh
-NeurIPS2021/helpers/run_muBernstein.sh
+experiments/AdaBoost_num_trees.py
+experiments/mu.py
+experiments/muBernstein.py
+experiments/helpers/run_mu.sh
+experiments/helpers/run_muBernstein.sh
 
 # abc related
-NeurIPS2021/plots/figure/abc
-NeurIPS2021/plots/figure/abc/*
-NeurIPS2021/plots/table/abc
-NeurIPS2021/plots/table/abc/*
+experiments/plots/figure/abc
+experiments/plots/figure/abc/*
+experiments/plots/table/abc
+experiments/plots/table/abc/*
+
+# Results not to be included
+experiments/out
+experiments/data
+
+# Links in subdiretories
+experiments/mvb
 
 # Data and out
 data
@@ -122,11 +129,10 @@ data/*
 out
 out/*
 
-# Links in subdiretories
-sample/mvb
-NeurIPS2020/mvb
-NeurIPS2021/mvb
-Sparsification/mvb
+# Removed subdirectories
+Sparsification
+sample
+NeurIPS2020
 
 # Plots
 *.pdf
